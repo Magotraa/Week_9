@@ -6,13 +6,13 @@ template<class T>
 class MatrixMN
 {
 public:
-	int num_rows_;  // m_
-	int num_cols_;  // n_
+	int num_rows_;  
+	int num_cols_;  
 	T *values_;
 
 	MatrixMN()
 		: values_(nullptr), num_rows_(0), num_cols_(0)
-	{}
+	{};
 	MatrixMN(const int& _m, const int& _n)
 		: values_(nullptr), num_rows_(0), num_cols_(0)
 	{}
@@ -40,12 +40,7 @@ public:
 	}
 
 
-	void assignAll( T v)
-	{
-		const int num_all = num_rows_ * num_cols_;
-		for (int i = 0; i < num_all; i++, v++)
-			values_[i] = v;
-	}
+	
 
 
 

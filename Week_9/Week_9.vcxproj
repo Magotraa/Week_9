@@ -146,10 +146,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
-    <ClCompile Include="Source1_week9.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Matrix3x3.h" />
     <ClInclude Include="MatrixMXN.h" />
     <ClInclude Include="Vector3D.h" />

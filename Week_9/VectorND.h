@@ -6,7 +6,7 @@
 template<class TT>
 class VectorND {
 
-
+	  
 public:
 	int n_dimension_;
 	TT *values_;
