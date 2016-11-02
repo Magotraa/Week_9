@@ -27,5 +27,16 @@
     <ClInclude Include="VectorND.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Header_Matrixmxn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source1_week9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

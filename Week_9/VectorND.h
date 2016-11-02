@@ -64,6 +64,15 @@ public:
 
 
 
+	void operator=(const VectorND<TT> & vector) const
+	{
+
+
+		for (int i = 0; i<n_dimension_; i++)
+			values_[i] = vector.values_[i];
+
+
+	}
 
 VectorND<TT> operator+(const VectorND & vector) const
 {
@@ -90,6 +99,17 @@ VectorND<TT> operator+(const VectorND & vector) const
 
 
 
+	// dot product 
+int operator*(const VectorND<TT>& input) {
+	int result = 0;
+
+	for (int i = 0; i < n_dimension_; i++)
+	{
+		result += values_[i] * input.values_[i];
+	}
+
+	return result;
+}
 
 
 
